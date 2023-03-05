@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: burlywood;
+}
+
+.main-box {
+  text-align: center;
+  justify-content: center;
+  height: 500px;
+  width: 500px;
+  box-shadow: 5px 10px #888888;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 170px;
+  background-color: white;
+}
+
+.password-heading {
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+}
+
+input[type="checkbox"] {
+  vertical-align: middle;
+}
+
+.generate-button {
+  margin-top: 10px;
+  background-color: green;
+  color: white;
+  width: 150px;
+  height: 30px;
+  font-weight: bold;
+}
+
+button:disabled {
+  background-color: lightgreen;
+}
